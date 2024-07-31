@@ -1,0 +1,50 @@
+.textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textarea.primary {
+    border-color: #007bff;
+}
+
+.textarea.secondary {
+    border-color: #6c757d;
+}
+
+.textarea.success {
+    border-color: #28a745;
+}
+
+.textarea.danger {
+    border-color: #dc3545;
+}
+
+.textarea.warning {
+    border-color: #ffc107;
+}
+
+.textarea.info {
+    border-color: #17a2b8;
+}
+
+.textarea.light {
+    border-color: #f8f9fa;
+}
+
+.textarea.dark {
+    border-color: #343a40;
+}
+
+.textarea.outline {
+    background-color: transparent;
+    border: 2px solid currentColor;
+}
+
+.textarea.text {
+    background-color: transparent;
+    border: none;
+}

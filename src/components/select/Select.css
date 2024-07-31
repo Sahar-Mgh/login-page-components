@@ -1,0 +1,40 @@
+.select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.select.primary {
+    border-color: #007bff;
+}
+
+.select.secondary {
+    border-color: #6c757d;
+}
+
+.select.success {
+    border-color: #28a745;
+}
+
+.select.danger {
+    border-color: #dc3545;
+}
+
+.select.warning {
+    border-color: #ffc107;
+}
+
+.select.info {
+    border-color: #17a2b8;
+}
+
+.select.light {
+    border-color: #f8f9fa;
+}
+
+.select.dark {
+    border-color: #343a40;
+}

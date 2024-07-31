@@ -1,0 +1,41 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.checkbox.primary input[type="checkbox"] {
+    accent-color: #007bff;
+}
+
+.checkbox.secondary input[type="checkbox"] {
+    accent-color: #6c757d;
+}
+
+.checkbox.success input[type="checkbox"] {
+    accent-color: #28a745;
+}
+
+.checkbox.danger input[type="checkbox"] {
+    accent-color: #dc3545;
+}
+
+.checkbox.warning input[type="checkbox"] {
+    accent-color: #ffc107;
+}
+
+.checkbox.info input[type="checkbox"] {
+    accent-color: #17a2b8;
+}
+
+.checkbox.light input[type="checkbox"] {
+    accent-color: #f8f9fa;
+}
+
+.checkbox.dark input[type="checkbox"] {
+    accent-color: #343a40;
+}

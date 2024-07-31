@@ -1,0 +1,50 @@
+.inputbox {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inputbox.primary {
+    border-color: #007bff;
+}
+
+.inputbox.secondary {
+    border-color: #6c757d;
+}
+
+.inputbox.success {
+    border-color: #28a745;
+}
+
+.inputbox.danger {
+    border-color: #dc3545;
+}
+
+.inputbox.warning {
+    border-color: #ffc107;
+}
+
+.inputbox.info {
+    border-color: #17a2b8;
+}
+
+.inputbox.light {
+    border-color: #f8f9fa;
+}
+
+.inputbox.dark {
+    border-color: #343a40;
+}
+
+.inputbox.outline {
+    background-color: transparent;
+    border: 2px solid currentColor;
+}
+
+.inputbox.text {
+    background-color: transparent;
+    border: none;
+}
